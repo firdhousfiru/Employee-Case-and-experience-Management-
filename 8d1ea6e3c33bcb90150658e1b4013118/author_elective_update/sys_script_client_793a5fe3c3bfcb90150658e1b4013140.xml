@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Priority is high acc to category</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue == 'access') {
+        g_form.setValue('priority', '2');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 12:04:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>793a5fe3c3bfcb90150658e1b4013140</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Priority is high acc to category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
+        <sys_update_name>sys_script_client_793a5fe3c3bfcb90150658e1b4013140</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 10:19:35</sys_updated_on>
+        <table>x_2240531_employ_0_employee_case</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</application>
+        <file_path/>
+        <instance_id>b91f46a61bd2f1d0e84d2f8dee4bcb4f</instance_id>
+        <instance_name>dev207002</instance_name>
+        <merge_base/>
+        <name>sys_script_client_793a5fe3c3bfcb90150658e1b4013140</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Priority is high acc to category&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue == 'access') {
+        g_form.setValue('priority', '2');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-14 12:04:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;793a5fe3c3bfcb90150658e1b4013140&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Priority is high acc to category&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0"&gt;8d1ea6e3c33bcb90150658e1b4013118&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee case and experience management system"&gt;8d1ea6e3c33bcb90150658e1b4013118&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_793a5fe3c3bfcb90150658e1b4013140&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-15 10:19:35&lt;/sys_updated_on&gt;&lt;table&gt;x_2240531_employ_0_employee_case&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>709659792</payload_hash>
+        <record_name>Priority is high acc to category</record_name>
+        <reverted_from/>
+        <source>773a1bb7c3ff4f90150658e1b401319e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 10:19:36</sys_created_on>
+        <sys_id>e6dcc40cc3849f90150658e1b4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a13f130fcd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 10:19:36</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e6dcc40c10849f904f7a4b0c2630fe51</update_guid>
+        <update_guid_history>e6dcc40c10849f904f7a4b0c2630fe51:709659792,88b4f7ab31730f903914c1ee50b4af71:1531849612,57fb9be76cbfcb906fca1abba75d74ce:-359880245,564bdf6777bfcb90ff5adafdfc2c78ff:777923899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-15 10:52:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2b26ee52c1b243c6aba4381aeb4f9389</sys_id>
+        <sys_metadata>793a5fe3c3bfcb90150658e1b4013140</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority is high acc to category</sys_name>
+        <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
+        <sys_parent display_value="Employee Case">5fd232efc33bcb90150658e1b4013108</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
+        <sys_scope_delete display_value="">03997a429dc949a395903c41a204f901</sys_scope_delete>
+        <sys_update_name>sys_script_client_793a5fe3c3bfcb90150658e1b4013140</sys_update_name>
+        <sys_update_version display_value="sys_script_client_793a5fe3c3bfcb90150658e1b4013140">e6dcc40cc3849f90150658e1b4013152</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-15 10:52:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
