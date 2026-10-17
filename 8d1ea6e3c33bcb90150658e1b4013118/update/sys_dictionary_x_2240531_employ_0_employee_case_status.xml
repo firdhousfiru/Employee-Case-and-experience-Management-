@@ -16,7 +16,7 @@
         <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>new</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
         <sys_update_name>sys_dictionary_x_2240531_employ_0_employee_case_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-14 09:31:02</sys_updated_on>
+        <sys_updated_on>2026-10-16 09:09:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

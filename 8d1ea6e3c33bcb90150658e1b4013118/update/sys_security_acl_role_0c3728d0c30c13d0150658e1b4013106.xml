@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-15 12:43:37</sys_created_on>
-        <sys_id>c4bde0c0c3c89f90150658e1b4013138</sys_id>
+        <sys_created_on>2026-10-16 06:57:34</sys_created_on>
+        <sys_id>0c3728d0c30c13d0150658e1b4013106</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_2240531_employ_0_employee_case.x_2240531_employ_0.ex.user</sys_name>
+        <sys_name>.x_2240531_employ_0.ex.user</sys_name>
         <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
-        <sys_security_acl display_value="x_2240531_employ_0_employee_case">32f2b6efc33bcb90150658e1b40131d4</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_c4bde0c0c3c89f90150658e1b4013138</sys_update_name>
+        <sys_security_acl display_value="x_2240531_employ_0_employee_case.*">6d27a8d0c30c13d0150658e1b40131b2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0c3728d0c30c13d0150658e1b4013106</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-15 12:43:37</sys_updated_on>
+        <sys_updated_on>2026-10-16 06:57:34</sys_updated_on>
         <sys_user_role display_value="x_2240531_employ_0.ex.user" name="x_2240531_employ_0.ex.user">111ea6e3c33bcb90150658e1b4013163</sys_user_role>
     </sys_security_acl_role>
 </record_update>

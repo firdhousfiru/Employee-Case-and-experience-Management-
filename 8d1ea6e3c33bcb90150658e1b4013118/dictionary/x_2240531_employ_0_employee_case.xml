@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5fd232efc33bcb90150658e1b4013108" extends="task" label="Employee Case" max_length="40" name="x_2240531_employ_0_employee_case" type="collection">
         <element label="Email" max_length="255" name="email" read_only="true" read_only_option="display_read_only" type="string"/>
-        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In progress" sequence="2" value="in_progress"/>
                 <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>

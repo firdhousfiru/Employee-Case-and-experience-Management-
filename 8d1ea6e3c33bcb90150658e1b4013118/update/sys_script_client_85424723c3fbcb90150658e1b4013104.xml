@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -11,16 +11,19 @@
         <name>Email should fill acc to requested for</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-	g_form.setValue('email','');
-      return;
-   }
-   g_form.getReference('requested_for',function(user){
-	g_form.setValue('email',user.email);
-   });
-
-   //Type appropriate comment here, and begin script below
-   
+    if (isLoading) {
+        return;
+    }
+    if (newValue === '') {
+        g_form.setValue('email', '');
+        return;
+    }
+    var ga = new GlideAjax('x_2240531_employ_0.ExCaseAjax');
+    ga.addParam('sysparm_name', 'getUserEmail');
+    ga.addParam('sysparm_user_id', newValue);
+    ga.getAnswer(function(answer) {
+        g_form.setValue('email', answer);
+    });
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -28,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>85424723c3fbcb90150658e1b4013104</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Email should fill acc to requested for</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
@@ -36,7 +39,7 @@
         <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
         <sys_update_name>sys_script_client_85424723c3fbcb90150658e1b4013104</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-14 10:19:19</sys_updated_on>
+        <sys_updated_on>2026-10-16 14:23:21</sys_updated_on>
         <table>x_2240531_employ_0_employee_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
