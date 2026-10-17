@@ -6,7 +6,7 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2026-10-16 10:52:15</created_on>
         <dashboard display_value="Employee case managemenet">a6ed5d98c3c053d0150658e1b40131fc</dashboard>
-        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1792156438277"}</edit_locked>
+        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1792237081529"}</edit_locked>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
         <include_insight_sentiment>true</include_insight_sentiment>
@@ -21,7 +21,7 @@
         <include_trends>true</include_trends>
         <include_widget_notification>true</include_widget_notification>
         <last_deactivated_on/>
-        <last_updated_on>2026-10-16 13:54:49</last_updated_on>
+        <last_updated_on>2026-10-17 11:40:01</last_updated_on>
         <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
         <refresh_interval/>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26ed9d98c3c053d0150658e1b4013107</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_26ed9d98c3c053d0150658e1b4013107</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-16 13:54:49</sys_updated_on>
+        <sys_updated_on>2026-10-17 11:40:02</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin>$now-global-space--sm</widgets_margin>
