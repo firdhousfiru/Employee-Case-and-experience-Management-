@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">3aed9d98c3c053d0150658e1b40131f3</canvas>
+        <component display_value="Area">aba8630dc2ccc9b3c1774af1b6820696</component>
+        <component_props>{"configVersion":"30.0.14","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","showPercentageOfTotalInTooltip":true,"extensionType":"area","showContinuousLine":true,"showMarkers":false,"rangesConfig":{},"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Task SLA","sourceType":"table","tableOrViewName":"task_sla","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV0YXNrX3NsYTE3OTIyMzcxMTc5MjQ=","dataCategories":["trend","group","simple"]}],"showHeader":true,"supportsTableView":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV0YXNrX3NsYTE3OTIyMzcxMTc5MjQ=","id":"38664e8f-7a9e-422c-ac83-a90275b2d0c7","aggregateFunction":"MAX","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"percentage"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV0YXNrX3NsYTE3OTIyMzcxMTc5MjQ=","groupByField":"duration","metric":"38664e8f-7a9e-422c-ac83-a90275b2d0c7","isRange":true,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"","sortByOrder":"","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"planned_end_time","metric":"38664e8f-7a9e-422c-ac83-a90275b2d0c7"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"fb5083ba5943e","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"periodOverPeriod":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"showExtendedErrorMessages":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props>
+        <h>12</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Task SLA","code":"PAR_DASHBOARD.3aed9d98c3c053d0150658e1b40131f3.e3627a20c34017d0150658e1b401312b"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.3aed9d98c3c053d0150658e1b40131f3.e3627a20c34017d0150658e1b401312b"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.3aed9d98c3c053d0150658e1b40131f3.e3627a20c34017d0150658e1b401312b"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-17 11:39:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3627a20c34017d0150658e1b401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Employee case and experience management system" source="x_2240531_employ_0">8d1ea6e3c33bcb90150658e1b4013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee case and experience management system">8d1ea6e3c33bcb90150658e1b4013118</sys_scope>
+        <sys_update_name>par_dashboard_widget_e3627a20c34017d0150658e1b401312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-17 11:39:59</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props>{"filterPerMetric":[],"enableRealTimeUpdate":null,"refreshFrequency":null}</widget_props>
+        <x>24</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
